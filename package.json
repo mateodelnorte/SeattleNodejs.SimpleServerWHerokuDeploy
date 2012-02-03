@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "name": "simpleserver",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {
+    "express": "2.5.5"
+  },
+  "devDependencies": {}
+}

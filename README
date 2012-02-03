@@ -1,0 +1,17 @@
+1. unzip this somewhere
+ * to run locally, do a 'npm install' before running 'node app.js'
+2. do a "git init"
+3. then do a "heroku create --stack cedar [name of your app]
+4. then do a "git add ."
+5. then do a "git commit -m "bla""
+6. then do a "git push heroku master"
+
+At this point, it should push to heroku, do all its magic and set you up to...
+
+7. do a "heroku ps:scale web=1"
+
+8. Now, do a "heroku open"
+
+You should get your new Hello World web server, serving you requests in your browser. 
+
+Enjoy!
